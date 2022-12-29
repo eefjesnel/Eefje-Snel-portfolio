@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body  class="contact">
+    <header>
+
+        <div>
+            <a href="index.html">
+                <h1>EEFJE<strong class="strong">SNEL</strong></h1>
+            </a>
+
+            <button><img src="images/menuIcoon.png" alt="menu"></button>
+        </div>
+        <div>
+            <ul class="menuButton">
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="work.html">WORK</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+
+    </header>
+    <main>
+
+        <section>
+            <div>
+                <div>
+                    <h2> CONTACT</h2>
+                    <p>Did my portfolio convince you? <br> Wait, really? Alright then, awesome!</p>
+                </div>
+                <div>
+                    <ul>
+                        <li>Eva Snel (beter bekend als Eefje)</li>
+                        <li>20 jaar</li>
+                        <li>Haarlem</li>
+                        <li>Noordertuindorpslaan 27</li>
+                        <li>Communications and Multimedia Design HvA</li>
+                        <li>Fotobewerker bij AutoDisk</li>
+                    </ul>
+                </div>
+            </div>
+
+            <article>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+
+                <!--<p id="myInput">06 47 80 22 44</p>-->
+                <input type="text" value="06 47 80 22 44" id="myInput">
+
+                <article class="tooltip">
+                    <button onclick="myFunction()" onmouseout="outFunc()">
+                    <span class="tooltiptext" id="myTooltip">Copy to clipboard</span>
+                    Copy to clipboard
+                    </button>
+                </article>
+
+            </article>
+
+            <article>
+                <div></div>
+                <div></div>
+                <!--<p>eefje.m.snel@gmail.com</p>-->
+
+                <input type="text" value="eefje.m.snel@gmail.com" id="myInputemail">
+
+                <article class="tooltipemail">
+                    <button onclick="myFunctionemail()" onmouseout="outFuncemail()">
+                    <span class="tooltiptextemail" id="myTooltipemail">Copy to clipboard</span>
+                    Copy to clipboard
+                    </button>
+                </article>
+
+            </article>
+
+            <article>
+                <div></div>
+                <p>in</p>
+                <a href="https://www.linkedin.com/in/eva-snel-872026227/">Eva Snel</a>
+            </article>
+        </section>
+
+    </main>
+    <script defer src="scripts/script.js"></script>
+</body>
+</html>
